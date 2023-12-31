@@ -11,7 +11,7 @@ export default function Login() {
       <div className="container mx-auto px-4 h-full">
         <div className="flex content-center items-center justify-center h-full">
           <div className="w-full lg:w-4/12 px-4">
-            <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200 border-0">
+            <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-slate-200 border-0">
               <div className="rounded-t mb-0 px-6 py-6">
                 <div className="text-center mb-3">
                   <h6 className="text-blueGray-500 text-sm font-bold">
@@ -20,14 +20,14 @@ export default function Login() {
                 </div>
                 <div className="btn-wrapper text-center">
                   <button
-                    className="bg-white active:bg-blueGray-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
+                    className="bg-white active:bg-slate-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-2 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
                     type="button"
                   >
                     <img alt="..." className="w-5 mr-1" src="/img/github.svg" />
                     Github
                   </button>
                   <button
-                    className="bg-white active:bg-blueGray-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
+                    className="bg-white active:bg-slate-50 text-blueGray-700 font-normal px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 uppercase shadow hover:shadow-md inline-flex items-center font-bold text-xs ease-linear transition-all duration-150"
                     type="button"
                   >
                     <img alt="..." className="w-5 mr-1" src="/img/google.svg" />
@@ -83,7 +83,7 @@ export default function Login() {
 
                   <div className="text-center mt-6">
                     <button
-                      className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
+                      className="bg-slate-800 text-white active:bg-slate-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
                       type="button"
                     >
                       Sign In
@@ -103,10 +103,8 @@ export default function Login() {
                 </a>
               </div>
               <div className="w-1/2 text-right">
-                <Link href="/auth/register">
-                  <a href="#pablo" className="text-blueGray-200">
-                    <small>Create new account</small>
-                  </a>
+                <Link href="/auth/register" className="text-blueGray-200">
+                  <small>Create new account</small>
                 </Link>
               </div>
             </div>

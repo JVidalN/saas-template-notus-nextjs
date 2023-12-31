@@ -11,7 +11,7 @@ export default function CardTable({ color }) {
       <div
         className={
           "relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded " +
-          (color === "light" ? "bg-white" : "bg-blueGray-700 text-white")
+          (color === "light" ? "bg-white" : "bg-slate-700 text-white")
         }
       >
         <div className="rounded-t mb-0 px-4 py-3 border-0">
@@ -37,8 +37,8 @@ export default function CardTable({ color }) {
                   className={
                     "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
                     (color === "light"
-                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                      ? "bg-slate-50 text-blueGray-500 border-blueGray-100"
+                      : "bg-slate-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
                   Project
@@ -47,8 +47,8 @@ export default function CardTable({ color }) {
                   className={
                     "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
                     (color === "light"
-                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                      ? "bg-slate-50 text-blueGray-500 border-blueGray-100"
+                      : "bg-slate-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
                   Budget
@@ -57,8 +57,8 @@ export default function CardTable({ color }) {
                   className={
                     "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
                     (color === "light"
-                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                      ? "bg-slate-50 text-blueGray-500 border-blueGray-100"
+                      : "bg-slate-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
                   Status
@@ -67,8 +67,8 @@ export default function CardTable({ color }) {
                   className={
                     "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
                     (color === "light"
-                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                      ? "bg-slate-50 text-blueGray-500 border-blueGray-100"
+                      : "bg-slate-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
                   Users
@@ -77,8 +77,8 @@ export default function CardTable({ color }) {
                   className={
                     "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
                     (color === "light"
-                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                      ? "bg-slate-50 text-blueGray-500 border-blueGray-100"
+                      : "bg-slate-600 text-blueGray-200 border-blueGray-500")
                   }
                 >
                   Completion
@@ -87,8 +87,8 @@ export default function CardTable({ color }) {
                   className={
                     "px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left " +
                     (color === "light"
-                      ? "bg-blueGray-50 text-blueGray-500 border-blueGray-100"
-                      : "bg-blueGray-600 text-blueGray-200 border-blueGray-500")
+                      ? "bg-slate-50 text-blueGray-500 border-blueGray-100"
+                      : "bg-slate-600 text-blueGray-200 border-blueGray-500")
                   }
                 ></th>
               </tr>

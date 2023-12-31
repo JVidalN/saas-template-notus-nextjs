@@ -34,13 +34,13 @@ export default function Index() {
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
                   target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-slate-400 active:bg-slate-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Get started
                 </a>
                 <a
                   href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
-                  className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
+                  className="github-star ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-slate-700 active:bg-slate-600 uppercase text-sm shadow hover:shadow-lg"
                   target="_blank"
                 >
                   Github Star
@@ -56,7 +56,7 @@ export default function Index() {
         />
       </section>
 
-      <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
+      <section className="mt-48 md:mt-40 pb-40 relative bg-slate-100">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
@@ -79,7 +79,7 @@ export default function Index() {
         <div className="container mx-auto">
           <div className="flex flex-wrap items-center">
             <div className="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32">
-              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-blueGray-700">
+              <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-slate-700">
                 <img
                   alt="..."
                   src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80"
@@ -284,7 +284,7 @@ export default function Index() {
                     href="https://www.creative-tim.com/learning-lab/tailwind/react/alerts/notus?ref=vtw-index"
                     target="_blank"
                   >
-                    <div className="bg-lightBlue-500 shadow-lg rounded-lg text-center p-8 mt-8">
+                    <div className="bg-sky-500 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
@@ -299,7 +299,7 @@ export default function Index() {
                     href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus?ref=vtw-index"
                     target="_blank"
                   >
-                    <div className="bg-blueGray-700 shadow-lg rounded-lg text-center p-8 mt-8">
+                    <div className="bg-slate-700 shadow-lg rounded-lg text-center p-8 mt-8">
                       <img
                         alt="..."
                         className="shadow-md rounded-full max-w-full w-16 mx-auto p-2 bg-white"
@@ -435,7 +435,7 @@ export default function Index() {
                   <li className="py-2">
                     <div className="flex items-center">
                       <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-slate-50 mr-3">
                           <i className="fas fa-fingerprint"></i>
                         </span>
                       </div>
@@ -449,7 +449,7 @@ export default function Index() {
                   <li className="py-2">
                     <div className="flex items-center">
                       <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-slate-50 mr-3">
                           <i className="fab fa-html5"></i>
                         </span>
                       </div>
@@ -463,7 +463,7 @@ export default function Index() {
                   <li className="py-2">
                     <div className="flex items-center">
                       <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-slate-50 mr-3">
                           <i className="far fa-paper-plane"></i>
                         </span>
                       </div>
@@ -504,7 +504,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="block relative z-1 bg-blueGray-600">
+      <section className="block relative z-1 bg-slate-600">
         <div className="container mx-auto">
           <div className="justify-center flex flex-wrap">
             <div className="w-full lg:w-12/12 px-4  -mt-24">
@@ -559,7 +559,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="py-20 bg-blueGray-600 overflow-hidden">
+      <section className="py-20 bg-slate-600 overflow-hidden">
         <div className="container mx-auto pb-64">
           <div className="flex flex-wrap justify-center">
             <div className="w-full md:w-5/12 px-12 md:px-4 ml-auto mr-auto md:mt-64">
@@ -589,7 +589,7 @@ export default function Index() {
               <a
                 href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
                 target="_blank"
-                className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
+                className="github-star mt-4 inline-block text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-slate-700 active:bg-slate-600 uppercase text-sm shadow hover:shadow-lg"
               >
                 Github Star
               </a>
@@ -602,7 +602,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section className="pb-16 bg-blueGray-200 relative pt-32">
+      <section className="pb-16 bg-slate-200 relative pt-32">
         <div
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
@@ -643,14 +643,14 @@ export default function Index() {
                 <a
                   href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/overview/notus?ref=nnjs-index"
                   target="_blank"
-                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-blueGray-400 active:bg-blueGray-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
+                  className="get-started text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-2 bg-slate-400 active:bg-slate-500 uppercase text-sm shadow hover:shadow-lg ease-linear transition-all duration-150"
                 >
                   Get started
                 </a>
                 <a
                   href="https://github.com/creativetimofficial/notus-nextjs?ref=nnjs-index"
                   target="_blank"
-                  className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-blueGray-700 active:bg-blueGray-600 uppercase text-sm shadow hover:shadow-lg"
+                  className="github-star sm:ml-1 text-white font-bold px-6 py-4 rounded outline-none focus:outline-none mr-1 mb-1 bg-slate-700 active:bg-slate-600 uppercase text-sm shadow hover:shadow-lg"
                 >
                   <i className="fab fa-github text-lg mr-1"></i>
                   <span>Help With a Star</span>

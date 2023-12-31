@@ -41,7 +41,7 @@ export default function Profile() {
             </svg>
           </div>
         </section>
-        <section className="relative py-16 bg-blueGray-200">
+        <section className="relative py-16 bg-slate-200">
           <div className="container mx-auto px-4">
             <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64">
               <div className="px-6">
@@ -58,7 +58,7 @@ export default function Profile() {
                   <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
                     <div className="py-6 px-3 mt-32 sm:mt-0">
                       <button
-                        className="bg-blueGray-700 active:bg-blueGray-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
+                        className="bg-slate-700 active:bg-slate-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
                         type="button"
                       >
                         Connect
@@ -123,7 +123,7 @@ export default function Profile() {
                       </p>
                       <a
                         href="#pablo"
-                        className="font-normal text-lightBlue-500"
+                        className="font-normal text-sky-500"
                         onClick={(e) => e.preventDefault()}
                       >
                         Show more
